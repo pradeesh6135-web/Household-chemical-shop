@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Household Chemical Shop</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 20px;
+        transition: 0.3s;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card h3 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .price {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #ffd700;
+    }
+
+    .call-btn {
+        display: block;
+        width: 200px;
+        margin: 30px auto;
+        padding: 15px;
+        text-align: center;
+        background: #00c853;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 18px;
+        transition: 0.3s;
+    }
+
+    .call-btn:hover {
+        background: #00e676;
+        transform: scale(1.1);
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+🧴 Household Chemical Shop
+</header>
+
+<div class="container">
+
+    <div class="menu">
+
+        <div class="card">
+            <h3>Floor Cleaner</h3>
+            <div class="price">₹120 / 1L</div>
+        </div>
+
+        <div class="card">
+            <h3>Dish Wash Liquid</h3>
+            <div class="price">₹90 / 500ml</div>
+        </div>
+
+        <div class="card">
+            <h3>Toilet Cleaner</h3>
+            <div class="price">₹150 / 1L</div>
+        </div>
+
+        <div class="card">
+            <h3>Glass Cleaner</h3>
+            <div class="price">₹110 / 500ml</div>
+        </div>
+
+        <div class="card">
+            <h3>Hand Wash</h3>
+            <div class="price">₹80 / 250ml</div>
+        </div>
+
+        <div class="card">
+            <h3>Laundry Liquid</h3>
+            <div class="price">₹200 / 1L</div>
+        </div>
+
+    </div>
+
+    <!-- DIRECT CALL BUTTON -->
+    <a href="tel:+918248086970" class="call-btn">
+        📞 Call Now
+    </a>
+
+</div>
+
+<footer>
+© 2026 Household Chemical Shop | Fast Delivery 🚚
+</footer>
+
+</body>
+</html>
